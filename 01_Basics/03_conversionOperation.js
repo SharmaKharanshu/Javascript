@@ -18,3 +18,15 @@ console.log(valueInNumber2);   //Gives 0 in output
 //case 1 -> "33" = 33
 //case 2 -> "33abc"= Nan
 //case 3 -> "null" = 0
+
+
+
+
+//-------------------------------------------------
+/* 
+BAD PRACTICE CODE 
+console.log("1"+2);     12
+console.log(1+"2");     12
+console.log("1"+2+2);   122
+console.log(1+2+"2");   32 (IMPORTANT)
+*/
