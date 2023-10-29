@@ -54,3 +54,16 @@ user[1].email // access object inside array
 //get all key of object -> it return array  IMPORANT
 console.log(tinderUser);
 console.log(Object.keys(tinderUser));
+
+//DESTRUCTURING OBJECT
+const course={
+    courseName:"JavaScript",
+    price:"999",
+    courseInstructor:"kaye"
+}
+
+// bar bar course. krke value access looks lame
+
+const {courseInstructor:Ins,courseName}=course;
+console.log(courseInstructor);
+//console.log(Ins);  // colon : laga k we can use smaller name also
